@@ -16,4 +16,5 @@ https://asciinema.org/a/7eIY3dfdnZd9ivDCwkjagoPWN
 Play brain-calc:
 https://asciinema.org/a/TXY6PnxqTfdntlgQRWSp8nzMu
 
-
+Play brain-gcd:
+https://asciinema.org/a/uMllvpbgFT8bIVjfni4AWQCjD

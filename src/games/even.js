@@ -1,31 +1,20 @@
-import HelloUser from "../cli";
+import getRandomNumber from '../randomNumber.js';
 
-const getRandomNum = () => Math.floor(Math.random() * 100);
+import gameLogic from '../index.js';
 
-const isEven = (num) => num % 2 === 0
+const isEven = (num) => num % 2 === 0 ? 'yes' : 'no';
 
-const EvenGame =(username) => {;
-    const roundsCount = 3;
-    for (let i = 0; i < roundsCount; i++) {;
-        const question = getRandomNum();
-        console.log(`Question: ${question}`);
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-        const userAnswer = readlineSync.question('Your answer: ');
-        const correctAnswer = isEven(question) ? 'yes' : 'no';
+const getData = () => {
+    const question = getRandomNumber(0, 100);
+    const questionRight = isEven(question);
 
-        if (userAnswer !== correctAnswer) {;
-            console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer})".`);
-            console.log(`Let's try again, ${username}`);
-            return;
-        }
-    }
-    
-    console.log(`Congratulations, ${username}`);
+    return [question, questionRight];
 }
 
-const runGame = () => {
-    const user = helloUser();
-    startEvengame(user)
-};
+const playEven = () => gameLogic(getData, description);
 
-runGame();
+export default playEven;
+
+

@@ -26,4 +26,4 @@ const gameLogic = (getData, description) => {
     console.log(`Congratulations, ${name}!`);
 }
 
-export default gameLogic
+export default gameLogic;

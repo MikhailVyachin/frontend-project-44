@@ -12,3 +12,8 @@ https://asciinema.org/a/P6cO9FMVnlEm9yB6w2fhuXDNe
 
 Play brain-even:
 https://asciinema.org/a/7eIY3dfdnZd9ivDCwkjagoPWN
+
+Play brain-calc:
+https://asciinema.org/a/TXY6PnxqTfdntlgQRWSp8nzMu
+
+

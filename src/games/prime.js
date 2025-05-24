@@ -1,7 +1,7 @@
 import getRandomNumber from '../randomNumber.js';
 import gameLogic from '../index.js';
 
-const description = 'Answer "yes" if the number is prime, otherwise answer "no".';
+const description = 'Answer "yes" if the number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   if (num <= 1) return false;

@@ -18,3 +18,9 @@ https://asciinema.org/a/TXY6PnxqTfdntlgQRWSp8nzMu
 
 Play brain-gcd:
 https://asciinema.org/a/uMllvpbgFT8bIVjfni4AWQCjD
+
+Play brain-progression:
+https://asciinema.org/a/pSo4mv1kFkhABFyLeHdgjlUtc
+
+Play brain-prime:
+https://asciinema.org/a/LaVsuy0bPEOORq1ZESrYOu2Vt
